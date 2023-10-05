@@ -7,5 +7,11 @@ public class Main {
         dog.makeVoice();
         dog.makeVoice("гув гув");
         dog.makeVoice("гив гив");
+        System.out.println("---------------");
+        Dog dog1 = new Dog("Bobik","доберман",shelter,ColorEnum.BROWN);
+        System.out.println(dog.getInfo());
+        dog.makeVoice();
+        dog.makeVoice("ppp ppp");
+        dog.makeVoice("гив гив");
     }
 }
